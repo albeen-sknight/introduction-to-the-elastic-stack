@@ -49,14 +49,14 @@ This returned the matching failed logon events in Kibana Discover.
 
 | # | Screenshot | Description |
 |---|------------|-------------|
-| 1 | ![Kibana home navigation](assets/screenshots/01-kibana-home-navigation.jpg) | Navigating from Kibana Home to Discover. |
-| 2 | ![Discover with last 15 years](assets/screenshots/02-discover-last-15-years.jpg) | Discover view with the time range set to the last 15 years. |
-| 3 | ![Change index pattern](assets/screenshots/03-change-index-pattern-to-windows.jpg) | Changing the data view/index pattern to `windows*`. |
-| 4 | ![Disabled account KQL query](assets/screenshots/04-disabled-account-kql-query.jpg) | KQL query returning the disabled account failed logon event. |
-| 5 | ![Username field evidence](assets/screenshots/05-disabled-account-username-field.jpg) | Expanded event showing the relevant username field. |
-| 6 | ![Question 1 submitted answer](assets/screenshots/06-question-1-submitted-answer.jpg) | Submitted answer confirmation for the disabled account question. |
-| 7 | ![Admin wildcard query results](assets/screenshots/07-admin-wildcard-query-results.jpg) | KQL wildcard query returning admin-related failed logon results. |
-| 8 | ![Question 2 submitted answer](assets/screenshots/08-question-2-submitted-answer.jpg) | Submitted answer confirmation for the wildcard query question. |
+| 1 | ![Kibana home navigation showing the Discover option](assets/screenshots/IMG_7002.jpeg) | Kibana home page with the side navigation opened and Discover selected. |
+| 2 | ![Discover view with the time range set to Last 15 years](assets/screenshots/IMG_7003.jpeg) | Kibana Discover showing the time picker set to **Last 15 years**. |
+| 3 | ![Index pattern dropdown showing windows star selected](assets/screenshots/IMG_7004.jpeg) | Changing the data view/index pattern from `zeek*` to `windows*`. |
+| 4 | ![Disabled account KQL query returning one hit](assets/screenshots/IMG_7005.jpeg) | KQL query for disabled-account failed logons returning one matching event. |
+| 5 | ![Expanded event showing the user.name field as anni](assets/screenshots/IMG_7006.jpeg) | Expanded event details showing `user.name` as `anni`. |
+| 6 | ![Submitted answer for the disabled account question](assets/screenshots/IMG_7007.jpeg) | Submitted answer confirmation for the disabled account username question. |
+| 7 | ![Admin wildcard query returning eight hits](assets/screenshots/IMG_7008.jpeg) | KQL wildcard query for admin-related failed logons returning eight hits. |
+| 8 | ![Submitted answer for the admin wildcard hits question](assets/screenshots/IMG_7009.jpeg) | Submitted answer confirmation for the admin wildcard hits question. |
 
 ## Key Takeaways
 
